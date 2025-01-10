@@ -25,6 +25,13 @@
   border: none;
   border-radius: 8px;
 }
+.news-image {
+  border-radius: 24px;
+}
+.icon {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
 /* nav styles */
 .nav-title {
   font-size: 32px;
@@ -151,4 +158,119 @@ nav {
   color: rgba(14, 14, 14, 0.6);
   font-size: 16px;
   font-weight: 400;
+}
+/* news style */
+.news-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+}
+.news-1 {
+  display: flex;
+  border-radius: 24px;
+  background: #f1ececab;
+  padding: 48px;
+  align-items: flex-start;
+  gap: 32px;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 10px;
+}
+.news-1-section-2 span {
+  display: inline-block;
+  margin-right: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+}
+.news-desctiption {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.news-btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding: 13px 26px 13px 26px;
+  align-items: center;
+}
+.news-2 {
+  display: flex;
+  border-radius: 24px;
+  background: #eae7e7ab;
+  padding: 48px;
+  align-items: flex-start;
+  gap: 32px;
+  align-items: flex-start;
+  gap: 32px;
+}
+.news-2 .news-1-section-1 span {
+  display: inline-block;
+  margin-right: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* donation styles */
+.donation-title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.donation-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.donation-amount .amount li {
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(225, 218, 218);
+  gap: 24;
+  padding: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+}
+.amount {
+  margin: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+input[type="text"] {
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  padding: 20px 40px;
+  font-size: 16px;
+  color: #0e0e0e;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type="text"]::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.btn-container {
+  text-align: center;
+  margin-top: 32px;
 }
