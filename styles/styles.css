@@ -123,3 +123,32 @@ nav {
 .btn-color3 {
   background-color: rgb(255, 194, 57);
 }
+/* quote styles */
+.quote {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-image: url("../assets/quote-bg.png");
+  /* background: rgb(255, 255, 255); */
+  background-repeat: no-repeat;
+  padding: 48px 24px;
+  background-position: top left;
+  background-clip: padding-box;
+  background-position: 24px 48px;
+  margin: 32px 0px 80px 0px;
+}
+.speech-1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+}
+.advisior {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.country {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
