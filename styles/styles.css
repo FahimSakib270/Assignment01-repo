@@ -253,6 +253,17 @@ nav {
   width: 100%;
   box-sizing: border-box;
 }
+.li-btn {
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+}
 input[type="text"] {
   box-sizing: border-box;
   background: rgb(255, 255, 255);
@@ -273,4 +284,62 @@ input[type="text"]::placeholder {
 .btn-container {
   text-align: center;
   margin-top: 32px;
+  margin-bottom: 80px;
+}
+/* news-latteer */
+.sub {
+  background-color: rgb(198, 228, 214);
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+.sub-titles {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.sub-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 18px 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 700px;
+  height: 35px;
+}
+
+.subscribe-form input[type="email"]:focus {
+  border-color: #006a50;
+  box-shadow: 0 0 5px rgba(0, 106, 80, 0.3);
+}
+
+.subscribe-btn {
+  padding: 17px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+}
+
+.subscribe-btn:hover,
+.li-btn:hover,
+.news-btn:hover,
+.btn-primary:hover,
+.new-Btn:hover,
+.btn-secondary:hover {
+  background-color: rgb(118, 242, 180);
 }
