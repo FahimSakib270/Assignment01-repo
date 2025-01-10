@@ -17,6 +17,14 @@
   padding: 15px 30px;
   border-radius: 8px;
 }
+.btn-secondary {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+}
 /* nav styles */
 .nav-title {
   font-size: 32px;
@@ -34,8 +42,7 @@ nav {
   padding: 80px 100px;
   border-radius: 24px;
   display: flex;
-  /* width: 1280px;
-  height: 560px; */
+  justify-content: center;
 }
 .banner-title {
   color: rgba(14, 14, 14, 0.5);
@@ -63,6 +70,7 @@ nav {
 .banner-content {
   margin-right: 64px;
 }
+
 /* vision style */
 .visions-title {
   color: rgb(14, 14, 14);
@@ -76,4 +84,42 @@ nav {
 }
 .about-visions {
   display: flex;
+  gap: 24px;
+}
+.vision-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+.vision-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.vision-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  margin-bottom: 24px;
+  border-radius: 16px;
+  padding: 32px;
+}
+.btn-color1 {
+  background-color: rgb(84, 144, 245);
+}
+.vision-2 {
+  background-color: rgb(198, 228, 214);
+  margin-bottom: 24px;
+  border-radius: 16px;
+  padding: 32px;
+}
+.btn-color2 {
+  background-color: rgb(9, 161, 92);
+}
+.vision-3 {
+  background-color: rgb(247, 235, 207);
+  margin-bottom: 24px;
+  border-radius: 16px;
+  padding: 32px;
+}
+.btn-color3 {
+  background-color: rgb(255, 194, 57);
 }
