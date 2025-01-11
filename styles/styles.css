@@ -343,3 +343,18 @@ input[type="text"]::placeholder {
 .btn-secondary:hover {
   background-color: rgb(118, 242, 180);
 }
+/* footer style */
+.f-style {
+  text-align: center;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+}
+.social-icons {
+  text-align: center;
+}
+
+.social-icons img {
+  margin: 0 8px;
+}
